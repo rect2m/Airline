@@ -13,8 +13,8 @@ import java.util.Properties;
 public class EmailService {
 
     public static void sendEmail(String recipient, String subject, String content) {
-        final String username = "rosadastasik@gmail.com";
-        final String password = "zxciqfefgdwcczfo";
+        final String username = "your-gmail@gmail.com";
+        final String password = "your-password";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
